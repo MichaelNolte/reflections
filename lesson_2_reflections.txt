@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A repository without any commit is created. There are no files in the repository yet. The files need to be added using git add <file>.
+
+ 
