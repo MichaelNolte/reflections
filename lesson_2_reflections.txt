@@ -2,4 +2,10 @@ What happens when you initialize a repository? Why do you need to do it?
 
 A repository without any commit is created. There are no files in the repository yet. The files need to be added using git add <file>.
 
- 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is a space between the working directory and the repository. It is like a storage that can contain multiple files. That is the beauty about the staiging area. It allows you to commit changes in multipe files at once.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I don't understand the question. Probably, it aims at pointing out that zou can add several files to the staging area at once before making a commit. So logical changes that stretch over a series of files can be committed via the staging area. 
