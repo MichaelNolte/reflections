@@ -1,0 +1,2 @@
+When would you want to use a remote repository rather than keeping all your work local?
+I use a remote repository when I want to safe my progress in the cloud. This could be useful when I want to access my files from anoter computer, collaborate with another person, or safe my progress online in case my hard drive breaks.
