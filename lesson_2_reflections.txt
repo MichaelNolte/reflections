@@ -8,7 +8,23 @@ The staging area is a space between the working directory and the repository. It
 
 How can you use the staging area to make sure you have one commit per logical change?
 
-I don't understand the question. Probably, it aims at pointing out that you can add several files to the staging area at once before making a commit. So logical changes that stretch over a series of files can be committed via the staging area. 
+I don't understand the question. Probably, it aims at pointing out that you can add several files to the staging area at once before making a commit. So logical changes that stretch over a series of files can be committed via the staging area.
+
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Branches are helpful when I want to work on two different versions of one and the same program. A branch allows me to create a new line of commits that differ from the master branch.
+
+How do the diagrams help you visualize the branch structure?
+
+When I use git log, it only shows the branch that I am on. Branches that lie on the sideline of the branch I am on are not shown. That is why it is helpful to draw diagrams of my branch structure. It helps me visualize the branches I have in my repository.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+All commits that were in the two branches before are joined into one listing all commits in order of the point in time when they were introduced.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging combines files following an algorhythm. When lines were changed in both branches the algorhythm doesn't know which change should be added to the new commit.
+
+These conflicts can only be resolved manually. It requires you to think and is a painfully boring job to do.
+
