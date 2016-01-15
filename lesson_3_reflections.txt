@@ -13,3 +13,7 @@ Forks are only on GitHub. I use them to copy somebody else's repository into my 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 When there is a local commit that is different from the commit on GitHub, I can fetch the GitHub commit and merge it with the local commit. This allows me to handle simultaneous commits by different computers/people.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I would probably collaborate by E-Mail. I think the collaboration would just work fine. In the End however, it would not be possible to track all changes without thinking about an elaborate system of saving all files. It would also be hard to track what part each member of the group promoted. This would also make it harder to work simultaneously on certain features. Plus we would not have branches that could be merged. The more I think about this, the more I am afraid that writing code in the old days was a pain in the ass.
